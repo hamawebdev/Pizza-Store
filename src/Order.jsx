@@ -96,7 +96,6 @@ export default function Order() {
         ) : (
           <div className="order-pizza">
             <Pizza
-              key={selectedPizza.id}
               name={selectedPizza.name}
               description={selectedPizza.description}
               image={selectedPizza.image}
